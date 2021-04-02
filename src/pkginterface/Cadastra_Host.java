@@ -145,6 +145,20 @@ public class Cadastra_Host extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+      
+        inicial init = new inicial();
+        this.setVisible(false);
+        init.setVisible(true);
+    }                                        
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        
+        Host_criado Host = new Host_criado();
+        this.setVisible(false);
+        Host.setVisible(true);
+    }   
+    
     /**
      * @param args the command line arguments
      */
