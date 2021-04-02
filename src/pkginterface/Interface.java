@@ -15,7 +15,9 @@ public class Interface {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        inicial init = new inicial();
+        init.setVisible(true);
     }
     
 }
