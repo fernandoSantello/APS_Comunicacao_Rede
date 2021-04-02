@@ -112,6 +112,21 @@ public class inicial extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        
+        Cadastra_Host cadHost = new Cadastra_Host();
+        this.setVisible(false);
+        cadHost.setVisible(true);
+        
+    }                                        
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        
+        Cadastra_Cliente cadCli = new Cadastra_Cliente();
+        this.setVisible(false);
+        cadCli.setVisible(true);
+    } 
+    
     /**
      * @param args the command line arguments
      */
