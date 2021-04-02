@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aps_gambiarra_5_semestre;
+package pkginterface;
 
 /**
  *
- * @author ferna
+ * @author rodri
  */
-public class APS_Gambiarra_5_Semestre {
+public class Interface {
 
     /**
      * @param args the command line arguments
